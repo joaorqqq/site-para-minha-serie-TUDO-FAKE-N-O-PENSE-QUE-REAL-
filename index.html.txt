@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias de Jogos Desaparecidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="news-container" id="news-container">
+        <!-- As notícias serão inseridas aqui -->
+    </div>
+
+    <!-- Modal para exibir a notícia específica do Jimmy -->
+    <div id="jimmy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Jimmy's games has disappeared</h2>
+            <p>Jimmy missing. If you find, connect to ###-###-###</p>
+            <img src="Jimmy.png" alt="Foto de Jimmy" class="jimmy-photo">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
